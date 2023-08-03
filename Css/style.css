@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 56%);
+}
+.icon-div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+.icon-div img{
+    width: 100px;
+}
+.pop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.pop > div{
+    width: 20%;
+    height: auto;
+    opacity: 0;
+    padding: 20px;
+    border-radius: 12px;
+    justify-content: center;
+    box-shadow: inset 0px 0px 5px black;
+    background: linear-gradient(45deg, rgba(17,153,128,1) 0%, rgba(56,239,112,1) 50%);
+    margin: auto;
+}
+.maram{
+    margin-top: 20px;
+}
+.maram img{
+    border-radius: 12px;
+}
+.soltan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: tahoma;
+    margin-top: 10px;
+}
+.soltan h3{
+    font-size: 15px;
+}
+.soltan button{
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90px;
+    font-size: 17px;
+    background-color: rgba(56,239,112,1);
+    border: none;
+    height: 40px;
+    font-family: tahoma;
+    border-radius: 8px;
+    transition: background 1s;
+}
+.soltan button:hover{
+    background-color: lightgreen;
+}
